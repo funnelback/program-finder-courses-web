@@ -4,6 +4,6 @@
 
 <@s.Results>
     <#if s.result.class.simpleName != "TierBar">
-        ${s.result.liveUrl} stencilsProgramDepartment:"${s.result.customData.dep!}"
+        ${s.result.liveUrl} department:"${s.result.customData.dep!}"
     </#if>
 </@s.Results>
